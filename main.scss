@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+
+    .top {
+        height: 65vh;
+        width: 100vw;
+    }
+
+    .bottom {
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .imageWrapper{
+        position: absolute;
+    }
+}

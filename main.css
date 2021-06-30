@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    cursor: grab;
+}
+body .top {
+    height: 65vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgb(79, 76, 236), rgb(15,15,15));
+}
+body .bottom {
+    height: 35vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgb(79,76,210), rgb(10,10,10));
+}
+body .imageWrapper {
+    position: absolute;
+    margin-top: -200px;
+}
+
+body .imageWrapper img{
+    width: 300px;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, rgb(255,255,255, 0.8));
+}
